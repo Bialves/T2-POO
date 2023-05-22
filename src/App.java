@@ -103,10 +103,10 @@ public class App {
       String formatted;
       if (aux != null) {
          formatted = "4;"
-                 + String.format("%.2f", mediaImposto)
-                 .replace(',', '.')
-                 + ";"
-                 + aux.getTitulo();
+            + String.format("%.2f", mediaImposto)
+               .replace(',', '.')
+            + ";"
+            + aux.getTitulo();
       }else {
          formatted = "4;Nenhum BlueRay";
       }

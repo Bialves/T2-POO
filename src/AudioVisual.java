@@ -32,10 +32,10 @@ public abstract class AudioVisual implements Cobravel {
    @Override
    public String toString() {
       return TITULO + ";"
-              + String.format("%.2f", calculaPrecoVenda())
-                  .replace(',', '.')
-              + ";"
-              + String.format("%.2f", calculaImposto())
-                  .replace(',', '.');
+         + String.format("%.2f", calculaPrecoVenda())
+            .replace(',', '.')
+         + ";"
+         + String.format("%.2f", calculaImposto())
+            .replace(',', '.');
    }
 }
